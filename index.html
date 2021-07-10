@@ -74,7 +74,7 @@
     <div class="container">
         <div class="row">
             <div class="content col-sm-12 col-md-7">
-                <h3>Giới thiệu về Huế - nơi đó có gì làm ta say mê?</h3>
+                <h1>Giới thiệu về Huế - nơi đó có gì làm ta say mê?</h1>
                 <p>Giới thiệu về Huế biết bao nhiêu cho đủ để lột tả được hết nét trầm lắng, dịu dàng và
                     bình yên
                     của mảnh đất này. Đặt chân đến đây ta như sững lại trước sự lặng lẽ, nên thơ cực ấn
@@ -149,7 +149,7 @@
                         <a href="vinhlangco.html">Xem thêm</a>
                     </div>
                     <div class="col-sm-12">
-                        <h1>Bún Bò Huế</h1>
+                        <h3>Bún Bò Huế</h3>
                         <img src="assets/img/bun bo hue/bun-bo2.jpg" alt="Bún Bò Huế">
                         <p>Nằm trong số những món ăn ngon và đậm đà hương vị nhất của ẩm thực Việt Nam, bên cạnh những
                             món ăn thường thức như cơm, phở, bánh mì, hủ tiếu thì bún bò Huế cũng được ưa chuộng và điều
@@ -157,7 +157,7 @@
                         <a href="Bunbohue.html">Xem thêm</a>
                     </div>
                     <div class="col-sm-12">
-                        <h1>Bánh Nậm Lọc</h1>
+                        <h3>Bánh Nậm Lọc</h3>
                         <img src="assets/img/banh beo nam loc/beonamloc.jpg" alt="Bánh Bèo Nậm Lọc">
                         <p>Bánh nậm, bánh lọc Huế là món ăn dân dã nổi tiếng ở Huế, bởi vị ngon, bùi, không béo và không
                             ngán, rất hợp khẩu vị từ người già đến trẻ nhỏ và là loại bánh thường được người Huế sử dụng
@@ -203,6 +203,29 @@
         </div>
     </footer>
 
+    
+<script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '{your-app-id}',
+        cookie     : true,
+        xfbml      : true,
+        version    : '{api-version}'
+      });
+        
+      FB.AppEvents.logPageView();   
+        
+    };
+  
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "https://connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+  </script>
+    
 </body>
 
 </html>
